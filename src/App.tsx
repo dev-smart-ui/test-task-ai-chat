@@ -1,35 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import {ChatBar} from "@/components/chat-bar.tsx";
+import {WebsiteBox} from "@/components/website-box.tsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    return (
+        <main
+            className={'overflow-hidden rounded-md grid grid-cols-[460px_1fr] mx-auto w-full max-w-[1440px] h-[900px] bg-[linear-gradient(180deg,rgba(215,208,255,0.2)_0%,rgba(203,221,255,0.501961)_100%)]'}>
+            <ChatBar />
+            <WebsiteBox />
+        </main>
+    )
 }
 
 export default App
