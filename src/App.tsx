@@ -1,5 +1,5 @@
-import {ChatBar} from "@/components/chat-bar.tsx";
-import {WebsiteBox} from "@/components/website-box.tsx";
+import {ChatBar} from "@/components/chat/chat-bar.tsx";
+import {WebsiteBox} from "@/components/website/website-box.tsx";
 
 function App() {
     return (

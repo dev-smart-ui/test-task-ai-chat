@@ -1,1 +1,0 @@
-export const ChatBar = () => <div>ChatBar</div>

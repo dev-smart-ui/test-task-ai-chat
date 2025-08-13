@@ -1,4 +1,4 @@
-import {TopBar} from "@/components/top-bar.tsx";
+import {TopBar} from "@/components/website/top-bar.tsx";
 
 export const WebsiteBox = () => {
     return(

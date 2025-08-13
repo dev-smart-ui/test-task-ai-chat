@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
@@ -22,12 +23,12 @@
     --popover-foreground: oklch(0.145 0 0);
     --primary: #795DFC;
     --primary-foreground: #ffffff;
-    --secondary: oklch(0.97 0 0);
-    --secondary-foreground: oklch(0.205 0 0);
+    --secondary: #ffffff;
+    --secondary-foreground: #000000;
     --muted: oklch(0.97 0 0);
     --muted-foreground: #637083;
     --accent: #F2F4F7;
-    --accent-foreground: oklch(0.205 0 0);
+    --accent-foreground:  #141C25;
     --destructive: oklch(0.577 0.245 27.325);
     --border: #E4E7EC;
     --input: #E4E7EC;
@@ -51,7 +52,9 @@
     --radius-sm: calc(var(--radius) - 4px);
     --radius-md: calc(var(--radius) - 2px);
     --radius-lg: var(--radius);
+    --radius-lg2: calc(var(--radius) + 2px);
     --radius-xl: calc(var(--radius) + 4px);
+    --radius-2xl: calc(var(--radius) * 2);
     --color-background: var(--background);
     --color-foreground: var(--foreground);
     --color-card: var(--card);
